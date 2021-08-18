@@ -4,6 +4,8 @@
 
 A workout tracker where the user can track their workouts to help them with their fitness goals. It uses a Mongo database with a Mongoose schema and handles routes with Express.
 
+Deployment: https://andwilson-workout-tracker.herokuapp.com/?id=611d68544c6fbf1198509ef1
+
 ## Table of Contents
 
 **[Objectives](#Objectives)**<br>
