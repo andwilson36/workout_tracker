@@ -1,5 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
+const path = require("path");
 const db = require('./models');
 const mongoose = require('mongoose');
 
@@ -15,7 +16,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 app.use(require("./controllers/api.js"));
-app.use(require("./controllers/main-routes.js"));
+app.use(require("./controllers/home-routes.js"));
 
 mongoose.connect(
     process.env.MONGODB_URI || 'mongodb://localhost/workout',
