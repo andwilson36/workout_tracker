@@ -24,6 +24,10 @@ A workout tracker where the user can track their workouts to help them with thei
 
 ## Media
 This image shows the API routes being used.
+![](public/assets/images/code.png)
+
+This image shows the dashboard.
+![](public/assets/images/dashboard.png)
 
 ## License
 The source code is licensed under MIT.
