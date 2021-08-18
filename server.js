@@ -1,7 +1,5 @@
 const express = require('express');
 const morgan = require('morgan');
-const path = require("path");
-const db = require('./models');
 const mongoose = require('mongoose');
 
 const PORT = process.env.PORT || 3001;
@@ -29,5 +27,3 @@ mongoose.connect(
 app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}!`);
 });
-
-module.exports = db;

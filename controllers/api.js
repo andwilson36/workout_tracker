@@ -1,5 +1,4 @@
 const router = require('express').Router();
-const path = require("path");
 const Workout = require("../models/Workout.js");
 
 router.get("/api/workouts", (req, res) => {
@@ -57,6 +56,5 @@ router.get("/api/workouts/range", (req, res) => {
             res.json(err);
         });
 });
-
 
 module.exports = router;
